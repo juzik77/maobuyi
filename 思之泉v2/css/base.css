@@ -1,0 +1,355 @@
+/*base 里面只写公共样式 是对网页写思之泉网页头部和底部样式*/
+body {
+	padding: 0;
+	margin: 0;
+}
+/*顶部开始*/
+.aa {
+	width: 1190px;
+	margin:0 auto;
+	height: 75px;
+}
+
+.fl {
+	float: left;
+}
+
+.a {
+	margin: 15px 5px 15px 50px;
+}
+
+.b {
+	margin: 2.9px;
+}
+
+.b span {
+	color: #10A14A;
+	font-size: 20px;
+}
+
+.c {
+	margin: 30.3px 0px 30.3px 140px;
+}
+
+.c input {
+	color: grey;
+	outline:none;
+	float: left;
+}
+
+.c button {
+	height: 22px;
+	background-color:#10A14A;
+	color: #fff;
+	border: 0px;
+	margin-left: 0px;
+	outline:none;
+	float: left;
+	cursor:pointer
+    }
+/*顶部结束*/
+/*导航栏开始*/
+.shortcut {
+	height: 50px;
+	background-color:#10A14A;
+}
+
+.shortcut .d{
+	display: block;
+	height: 48.4px;
+	text-align:center;
+}
+
+.shortcut li {
+	float: left;
+	list-style-type: none;
+	width: 137px;
+    line-height: 49px;
+}
+
+.shortcut li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.shortcut a:hover{
+	display:block;
+	background-color: #0D803B;
+}
+
+.pic img {
+	height: 602px;
+    position:absolute;
+    margin: 0;
+    padding: 0;
+  }
+
+.kuang{
+	
+	position: absolute;
+}
+.text {
+	position:relative;
+	z-index: 2;
+	background-color:rgba(16,161,74,0.65);
+	color: #fff;
+	text-align:left;
+	margin:0 auto;
+	width:500px;
+    padding: 20px;
+    left: 220px;
+    top: 130px;
+}
+
+.text .e {
+	font-size: 25px;
+}
+
+.btu {
+	text-align: center;
+}
+.text button {
+	background-color:rgba(16,161,74,0.65);
+	border: 1px solid #fff;
+	color: #fff;
+	width: 150px;
+	height: 50px;
+	border-radius:5px;
+	cursor: pointer;
+}
+/*导航栏结束*/
+/*实验室开始*/
+.shiyanshi {
+	height: 200px;
+	position: relative;
+	top:602px;
+	text-align: center;
+}
+
+.shiyanshi a {
+	text-decoration: none;
+}
+/*实验室结束*/
+/*公司介绍开始*/
+.gsjs {
+	position: relative;
+	top: 620px;
+}
+
+.gsjs_text {
+	position: relative;
+	z-index: 2;
+	top:-400px;
+   text-align: center;
+   color: #fff;
+   padding: 50px;
+}
+
+.gsjs_text p {
+	text-align: left;
+	width: 1190px;
+	margin:0 auto;
+}
+/*公司介绍结束*/
+/*应用领域开始*/
+.yyly {
+	position: relative;
+	top:320px;
+	left: 220px;
+	float: left;
+}
+
+.yyly_h {
+	color: #10A14A;
+}
+
+.f {
+	color: grey;
+	position: relative;
+	left: 20px;
+	top: 22px;
+}
+
+.g a{
+	color: orange;
+	text-decoration: none;
+	position: relative;
+	left: 800px;
+	top: 22px;
+}
+
+.yyly_img {
+	position: relative;
+	top: 372px;
+	left: -40px;
+	width: 1190px;
+
+	
+}
+
+.yyly_img li {
+	list-style-type: none;
+	float: left;
+	margin: 5px 5px;
+}
+
+.h1 {
+	width: 465px;
+	height: 158px;
+	text-align: center;
+	padding: 20px;
+	background-color:#10A14A;
+}
+/*应用领域结束*/
+/*经典案例开始*/
+.jdal {
+	position:relative;
+	top:1000px;
+	left: -1210px;
+}
+
+.jdal_h {
+	color:#10A14A;
+	
+}
+
+.i {
+	color: grey;
+	position:absolute;
+	right:-107px;
+	top: 22px;
+}
+
+.j a{
+	color: orange;
+    text-decoration: none;
+    position: absolute;
+    right:-965px;
+    top: 22px;
+}
+
+.left {
+	position: absolute;
+	left:-50px;
+	top:95px;
+}
+
+.right {
+	position: absolute;
+	right: 0px;
+	top: 95px;
+}
+
+.jdal_list a {
+	text-decoration: none;
+	color: black;
+}
+
+.jdal_img li {
+	float:left;
+	list-style-type: none;
+	margin: 25px 18px;
+}
+
+.jdal_img {
+	position: absolute;
+	top: 2125px;
+	right:145px;
+	
+}
+
+.jdal_list {
+	width: 1190px;
+}
+/*经典案例结束*/
+/*设计团队开始*/
+.sjtd {
+	background-color:#F2F2F2;
+	position: absolute;
+	top: 2500px;
+	width: 100%;
+}
+
+.people {
+	
+}
+
+.people li {
+	list-style-type: none;
+	float:left;
+	margin: 20px 62px;
+	
+}
+
+.people ul {
+	
+}
+
+.tuandui div {
+	float: left;
+	width: 100%;
+	text-align:center;
+}
+
+.k1 {
+	position: absolute;
+	top: 200px;
+	left: 10px;
+	
+}
+
+.k2 {
+	position: absolute;
+	top: 200px;
+	right: -10px;
+}
+/*设计团队结束*/
+/*新闻动态开始*/
+.xwdt {
+	width: 100%;
+	position: absolute;
+	top: 3000px;
+}
+
+.xwdt h3 {
+	color:#10A14A;
+	position: absolute;
+	left:220px;
+}
+
+.xwdt .new {
+	color: grey;
+    position: absolute;
+    left: 320px;
+    top: 21px;
+}
+
+.xwdt a {
+	text-decoration: none;
+	color: orange;
+	position: absolute;
+	top: 21px;
+	right: 230px;
+}
+
+.xwdt_1,.xwdt_2 img,.xwdt_2 span,.xwdt_2 div{
+	float: left;
+}
+
+.xwdt_2 {
+	position: absolute;
+	top: 100px;
+	width:1190px;
+	text-align:left;
+	margin: 0 auto;
+}
+
+.xwdt_2 span {
+	width:300px;
+	
+}
+
+.xwdt_2 div {
+	margin:20px;
+}
+/*新闻动态结束*/
